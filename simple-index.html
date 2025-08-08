@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCare Tech - Technology Solutions for Seniors</title>
+    <meta name="description" content="Professional technology consultation and setup services for seniors. Device setup, home networking, and training services.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        accent: '#10b981',
+                        neutral: '#1f2937'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-semibold text-blue-600">NovaCare Tech</div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors">Services</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#pricing" class="text-gray-600 hover:text-blue-600 transition-colors">Pricing</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+                <a href="tel:+1-555-668-2832" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors">
+                    Call Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white py-32">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center">
+                <h1 class="text-6xl font-light text-gray-800 leading-tight mb-8">
+                    Technology Made
+                    <span class="block text-blue-600 font-normal">Simple</span>
+                </h1>
+                <p class="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+                    Professional technology consultation and setup services for seniors.
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-md hover:bg-blue-700 transition-colors text-lg">
+                        Get Started
+                    </a>
+                    <a href="tel:+1-555-668-2832" class="border border-gray-300 text-gray-700 px-8 py-4 rounded-md hover:bg-gray-50 transition-colors text-lg">
+                        Call Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-light text-gray-800 mb-4">Services</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Simple technology solutions for your everyday needs.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Device Setup -->
+                <div class="bg-white p-8 rounded-lg border border-gray-100">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Device Setup</h3>
+                    <p class="text-gray-600 mb-6">
+                        Help choosing and setting up smartphones, tablets, and computers.
+                    </p>
+                    <div class="text-blue-600 font-medium text-lg mb-6">From $89</div>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors">
+                        Learn More
+                    </button>
+                </div>
+
+                <!-- Home Networking -->
+                <div class="bg-white p-8 rounded-lg border border-gray-100">
+                    <div class="w-12 h-12 bg-green-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-wifi text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Home Networking</h3>
+                    <p class="text-gray-600 mb-6">
+                        WiFi setup, security configuration, and network optimization.
+                    </p>
+                    <div class="text-blue-600 font-medium text-lg mb-6">From $129</div>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors">
+                        Learn More
+                    </button>
+                </div>
+
+                <!-- Training & Support -->
+                <div class="bg-white p-8 rounded-lg border border-gray-100">
+                    <div class="w-12 h-12 bg-yellow-50 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chalkboard-teacher text-yellow-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Training & Support</h3>
+                    <p class="text-gray-600 mb-6">
+                        One-on-one training sessions and ongoing technical support.
+                    </p>
+                    <div class="text-blue-600 font-medium text-lg mb-6">From $79/hr</div>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-light text-gray-800 mb-4">About</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Professional technology solutions designed for seniors.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fas fa-certificate text-white text-sm"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800 mb-1">Certified Professionals</h3>
+                            <p class="text-gray-600">Licensed and insured technicians with years of experience.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fas fa-users text-white text-sm"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800 mb-1">Senior-Focused</h3>
+                            <p class="text-gray-600">Patient approach designed specifically for older adults.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                            <i class="fas fa-handshake text-white text-sm"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800 mb-1">Satisfaction Guarantee</h3>
+                            <p class="text-gray-600">30-day money-back guarantee on all services.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <blockquote class="text-gray-700 text-lg italic mb-4">
+                        "Technology should enhance your life, not complicate it."
+                    </blockquote>
+                    <p class="text-gray-600">— Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-light text-gray-800 mb-4">Pricing</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Transparent pricing with no hidden fees.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Basic -->
+                <div class="bg-white p-8 rounded-lg border border-gray-200">
+                    <div class="text-center mb-8">
+                        <h3 class="text-xl font-medium text-gray-800 mb-2">Basic</h3>
+                        <div class="text-4xl font-light text-blue-600 mb-2">$89</div>
+                        <p class="text-gray-600">One-time setup</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Device setup and configuration
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Basic training session
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            30-day support
+                        </li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 transition-colors">
+                        Get Started
+                    </button>
+                </div>
+
+                <!-- Standard -->
+                <div class="bg-white p-8 rounded-lg border-2 border-blue-600 relative">
+                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">Most Popular</span>
+                    </div>
+                    <div class="text-center mb-8">
+                        <h3 class="text-xl font-medium text-gray-800 mb-2">Standard</h3>
+                        <div class="text-4xl font-light text-blue-600 mb-2">$149</div>
+                        <p class="text-gray-600">Complete setup</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Everything in Basic
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Home network setup
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Security configuration
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            60-day support
+                        </li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 transition-colors">
+                        Get Started
+                    </button>
+                </div>
+
+                <!-- Premium -->
+                <div class="bg-white p-8 rounded-lg border border-gray-200">
+                    <div class="text-center mb-8">
+                        <h3 class="text-xl font-medium text-gray-800 mb-2">Premium</h3>
+                        <div class="text-4xl font-light text-blue-600 mb-2">$229</div>
+                        <p class="text-gray-600">Complete solution</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Everything in Standard
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Multiple device setup
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            Extended training
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <i class="fas fa-check text-green-600 w-5 mr-3"></i>
+                            90-day support
+                        </li>
+                    </ul>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 transition-colors">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-light text-gray-800 mb-4">Contact</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Ready to get started? Contact us for a free consultation.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Info -->
+                <div class="space-y-8">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-phone text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">Phone</h3>
+                            <p class="text-gray-600">(555) 668-2832</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-envelope text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">Email</h3>
+                            <p class="text-gray-600">hello@novacaretech.ca</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-clock text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">Hours</h3>
+                            <p class="text-gray-600">Mon-Fri: 9AM-6PM<br>Sat: 10AM-4PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <form id="contactForm" class="space-y-6">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+                                <input 
+                                    type="text" 
+                                    id="firstName" 
+                                    name="firstName" 
+                                    required 
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                >
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+                                <input 
+                                    type="text" 
+                                    id="lastName" 
+                                    name="lastName" 
+                                    required 
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                >
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone" 
+                                required 
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            >
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required 
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            >
+                        </div>
+
+                        <div>
+                            <label for="serviceType" class="block text-sm font-medium text-gray-700 mb-1">Service Type</label>
+                            <select 
+                                id="serviceType" 
+                                name="serviceType" 
+                                required 
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            >
+                                <option value="">Select a service</option>
+                                <option value="device-setup">Device Setup</option>
+                                <option value="home-networking">Home Networking</option>
+                                <option value="training-support">Training & Support</option>
+                                <option value="consultation">General Consultation</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="description" class="block text-sm font-medium text-gray-700 mb-1">How can we help?</label>
+                            <textarea 
+                                id="description" 
+                                name="description" 
+                                rows="4" 
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                                placeholder="Tell us about your technology needs..."
+                            ></textarea>
+                        </div>
+
+                        <button 
+                            type="submit" 
+                            class="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 transition-colors"
+                        >
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">NovaCare Tech</h3>
+                    <p class="text-gray-300">
+                        Professional technology consultation services for seniors and families.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-medium mb-4">Contact</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <p>Phone: (555) 668-2832</p>
+                        <p>Email: hello@novacaretech.ca</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-medium mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>Device Setup</li>
+                        <li>Home Networking</li>
+                        <li>Training & Support</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 NovaCare Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for form handling -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Contact form handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Show success message (replace with actual API call)
+            alert('Thank you! Your message has been sent. We\'ll contact you soon.');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>

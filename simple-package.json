@@ -1,0 +1,21 @@
+{
+  "name": "novacare-tech-simple",
+  "version": "1.0.0",
+  "description": "Simple version of NovaCare Tech website",
+  "main": "simple-server.js",
+  "scripts": {
+    "start": "node simple-server.js",
+    "dev": "node simple-server.js",
+    "build": "echo 'Static files ready'",
+    "build-react": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["technology", "seniors", "consultation", "website"],
+  "author": "NovaCare Tech",
+  "license": "MIT"
+}
